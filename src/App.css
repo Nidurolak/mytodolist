@@ -1,0 +1,97 @@
+.defaultlayout{
+  width: 100%;
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+.titlecontainer{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: space-between;
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid gold;
+  background-color: rgb(80, 45, 0);
+  border-radius: 10px;
+} 
+
+.submitcontainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid gold;
+  background-color: rgb(80, 45, 0);
+  border-radius: 10px;
+}
+
+.title {
+  max-width: 150px;
+  height: 25px;
+  color: gold;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.submitwrapper{
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+}
+.submitbox{
+  color: gold;
+}
+.submitbox > input{
+  width: 70%;
+  background-color: wheat;
+}
+
+.submitbutton{
+  width: 100px;
+  height: 30px;
+  color: rgb(80, 45, 0)black;
+  border: 2px solid gold;
+  border-radius: 5px;
+  background-color: wheat;
+}
+
+.todocontainer{ 
+  padding: 0 24px;
+  border: gold;
+}
+
+.todoboxcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.todobox{
+  max-width: 300px;
+  width: 50%;
+  padding: 10px 10px 10px 10px;
+  color: gold;
+  border: 4px solid gold;
+  border-radius: 15px;
+  background-color: rgb(80, 45, 0);
+}
+
+.todobuttoncontainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.todoboxcompleteordelete{
+  width: 100px;
+  height: 30px;
+  color: rgb(80, 45, 0);
+  border: 2px solid gold;
+  border-radius: 5px;
+  background-color: wheat;
+}
